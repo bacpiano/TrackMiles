@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430A5A781D035284009F0CD3 /* JobsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A771D035284009F0CD3 /* JobsVC.m */; };
+		430A5A7B1D035299009F0CD3 /* TracksVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A7A1D035299009F0CD3 /* TracksVC.m */; };
+		430A5A7E1D0352AD009F0CD3 /* AddJobVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A7D1D0352AD009F0CD3 /* AddJobVC.m */; };
+		430A5A811D0352B9009F0CD3 /* AddTrackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A801D0352B9009F0CD3 /* AddTrackVC.m */; };
+		430A5A841D035310009F0CD3 /* DistanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A831D035310009F0CD3 /* DistanceVC.m */; };
+		430A5A901D035837009F0CD3 /* Job+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A891D035837009F0CD3 /* Job+CoreDataProperties.m */; };
+		430A5A911D035837009F0CD3 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A8B1D035837009F0CD3 /* Job.m */; };
+		430A5A921D035837009F0CD3 /* Track+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A8D1D035837009F0CD3 /* Track+CoreDataProperties.m */; };
+		430A5A931D035837009F0CD3 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A8F1D035837009F0CD3 /* Track.m */; };
+		430A5A961D04242A009F0CD3 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A951D04242A009F0CD3 /* SettingsVC.m */; };
+		430A5A991D04285C009F0CD3 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5A981D04285C009F0CD3 /* Manager.m */; };
+		430A5AC61D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5ABF1D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.m */; };
+		430A5AC71D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5AC11D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.m */; };
+		430A5AC81D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5AC31D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.m */; };
+		430A5AC91D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 430A5AC51D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		4351B3ED1CFA106B00734A1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351B3EC1CFA106B00734A1A /* main.m */; };
+		4351B3F01CFA106B00734A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4351B3EF1CFA106B00734A1A /* AppDelegate.m */; };
+		4351B3F61CFA106B00734A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351B3F41CFA106B00734A1A /* Main.storyboard */; };
+		4351B3F91CFA106B00734A1A /* TrackMiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4351B3F71CFA106B00734A1A /* TrackMiles.xcdatamodeld */; };
+		4351B3FB1CFA106B00734A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4351B3FA1CFA106B00734A1A /* Assets.xcassets */; };
+		4351B3FE1CFA106B00734A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4351B3FC1CFA106B00734A1A /* LaunchScreen.storyboard */; };
+		43F800001D1053C5008034A3 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFEF1D1053C5008034A3 /* NSInvocation+Copy.m */; };
+		43F800011D1053C5008034A3 /* MZFormSheetBackgroundWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFF11D1053C5008034A3 /* MZFormSheetBackgroundWindow.m */; };
+		43F800021D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFF31D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.m */; };
+		43F800031D1053C5008034A3 /* MZFormSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFF51D1053C5008034A3 /* MZFormSheetController.m */; };
+		43F800041D1053C5008034A3 /* MZFormSheetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFF71D1053C5008034A3 /* MZFormSheetSegue.m */; };
+		43F800051D1053C5008034A3 /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFFA1D1053C5008034A3 /* MZTransition.m */; };
+		43F800061D1053C5008034A3 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFFC1D1053C5008034A3 /* UIImage+Additional.m */; };
+		43F800071D1053C5008034A3 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFFE1D1053C5008034A3 /* UIViewController+TargetViewController.m */; };
+		43F8000A1D105418008034A3 /* MonthSelectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F800091D105418008034A3 /* MonthSelectionVC.m */; };
+		43F8FFFF1D1053C5008034A3 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F8FFED1D1053C5008034A3 /* MZAppearance.m */; };
+		4EFA9EF31D1B08A20055DEB5 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA9EF21D1B08A20055DEB5 /* HelpVC.m */; };
+		4EFA9EF61D1B08B90055DEB5 /* HistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA9EF51D1B08B90055DEB5 /* HistoryVC.m */; };
+		A2F72FB5A9A3AF159E2EB000 /* libPods-TrackMiles.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90D4458DDBB91A53CE685C9 /* libPods-TrackMiles.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430A5A761D035284009F0CD3 /* JobsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsVC.h; sourceTree = "<group>"; };
+		430A5A771D035284009F0CD3 /* JobsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsVC.m; sourceTree = "<group>"; };
+		430A5A791D035299009F0CD3 /* TracksVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksVC.h; sourceTree = "<group>"; };
+		430A5A7A1D035299009F0CD3 /* TracksVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksVC.m; sourceTree = "<group>"; };
+		430A5A7C1D0352AD009F0CD3 /* AddJobVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddJobVC.h; sourceTree = "<group>"; };
+		430A5A7D1D0352AD009F0CD3 /* AddJobVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddJobVC.m; sourceTree = "<group>"; };
+		430A5A7F1D0352B9009F0CD3 /* AddTrackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTrackVC.h; sourceTree = "<group>"; };
+		430A5A801D0352B9009F0CD3 /* AddTrackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTrackVC.m; sourceTree = "<group>"; };
+		430A5A821D035310009F0CD3 /* DistanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceVC.h; sourceTree = "<group>"; };
+		430A5A831D035310009F0CD3 /* DistanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceVC.m; sourceTree = "<group>"; };
+		430A5A851D035728009F0CD3 /* TrackMiles.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackMiles.pch; sourceTree = "<group>"; };
+		430A5A861D03573C009F0CD3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		430A5A881D035837009F0CD3 /* Job+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Job+CoreDataProperties.h"; sourceTree = "<group>"; };
+		430A5A891D035837009F0CD3 /* Job+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Job+CoreDataProperties.m"; sourceTree = "<group>"; };
+		430A5A8A1D035837009F0CD3 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		430A5A8B1D035837009F0CD3 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		430A5A8C1D035837009F0CD3 /* Track+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Track+CoreDataProperties.h"; sourceTree = "<group>"; };
+		430A5A8D1D035837009F0CD3 /* Track+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Track+CoreDataProperties.m"; sourceTree = "<group>"; };
+		430A5A8E1D035837009F0CD3 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		430A5A8F1D035837009F0CD3 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		430A5A941D04242A009F0CD3 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		430A5A951D04242A009F0CD3 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		430A5A971D04285C009F0CD3 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		430A5A981D04285C009F0CD3 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		430A5ABE1D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		430A5ABF1D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		430A5AC01D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		430A5AC11D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		430A5AC21D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		430A5AC31D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		430A5AC41D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		430A5AC51D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		4351B3E81CFA106B00734A1A /* TrackMiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4351B3EC1CFA106B00734A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4351B3EE1CFA106B00734A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4351B3EF1CFA106B00734A1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4351B3F51CFA106B00734A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4351B3F81CFA106B00734A1A /* TrackMiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMiles.xcdatamodel; sourceTree = "<group>"; };
+		4351B3FA1CFA106B00734A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4351B3FD1CFA106B00734A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4351B3FF1CFA106B00734A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F800081D105418008034A3 /* MonthSelectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthSelectionVC.h; sourceTree = "<group>"; };
+		43F800091D105418008034A3 /* MonthSelectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthSelectionVC.m; sourceTree = "<group>"; };
+		43F8FFEC1D1053C5008034A3 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
+		43F8FFED1D1053C5008034A3 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
+		43F8FFEE1D1053C5008034A3 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
+		43F8FFEF1D1053C5008034A3 /* NSInvocation+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Copy.m"; sourceTree = "<group>"; };
+		43F8FFF01D1053C5008034A3 /* MZFormSheetBackgroundWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindow.h; sourceTree = "<group>"; };
+		43F8FFF11D1053C5008034A3 /* MZFormSheetBackgroundWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindow.m; sourceTree = "<group>"; };
+		43F8FFF21D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetBackgroundWindowViewController.h; sourceTree = "<group>"; };
+		43F8FFF31D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetBackgroundWindowViewController.m; sourceTree = "<group>"; };
+		43F8FFF41D1053C5008034A3 /* MZFormSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetController.h; sourceTree = "<group>"; };
+		43F8FFF51D1053C5008034A3 /* MZFormSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetController.m; sourceTree = "<group>"; };
+		43F8FFF61D1053C5008034A3 /* MZFormSheetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetSegue.h; sourceTree = "<group>"; };
+		43F8FFF71D1053C5008034A3 /* MZFormSheetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetSegue.m; sourceTree = "<group>"; };
+		43F8FFF81D1053C5008034A3 /* MZMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMacro.h; sourceTree = "<group>"; };
+		43F8FFF91D1053C5008034A3 /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		43F8FFFA1D1053C5008034A3 /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		43F8FFFB1D1053C5008034A3 /* UIImage+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additional.h"; sourceTree = "<group>"; };
+		43F8FFFC1D1053C5008034A3 /* UIImage+Additional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additional.m"; sourceTree = "<group>"; };
+		43F8FFFD1D1053C5008034A3 /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		43F8FFFE1D1053C5008034A3 /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		4EFA9EF11D1B08A20055DEB5 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
+		4EFA9EF21D1B08A20055DEB5 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
+		4EFA9EF41D1B08B90055DEB5 /* HistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryVC.h; sourceTree = "<group>"; };
+		4EFA9EF51D1B08B90055DEB5 /* HistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryVC.m; sourceTree = "<group>"; };
+		92CA19A7F5BD7264B988312C /* Pods-TrackMiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMiles/Pods-TrackMiles.debug.xcconfig"; sourceTree = "<group>"; };
+		9361F3A3959278355FC20BBA /* Pods-TrackMiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMiles/Pods-TrackMiles.release.xcconfig"; sourceTree = "<group>"; };
+		D90D4458DDBB91A53CE685C9 /* libPods-TrackMiles.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrackMiles.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4351B3E51CFA106A00734A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F72FB5A9A3AF159E2EB000 /* libPods-TrackMiles.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430A5A751D035257009F0CD3 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				430A5A761D035284009F0CD3 /* JobsVC.h */,
+				430A5A771D035284009F0CD3 /* JobsVC.m */,
+				430A5A791D035299009F0CD3 /* TracksVC.h */,
+				430A5A7A1D035299009F0CD3 /* TracksVC.m */,
+				430A5A7C1D0352AD009F0CD3 /* AddJobVC.h */,
+				430A5A7D1D0352AD009F0CD3 /* AddJobVC.m */,
+				430A5A7F1D0352B9009F0CD3 /* AddTrackVC.h */,
+				430A5A801D0352B9009F0CD3 /* AddTrackVC.m */,
+				430A5A821D035310009F0CD3 /* DistanceVC.h */,
+				430A5A831D035310009F0CD3 /* DistanceVC.m */,
+				430A5A941D04242A009F0CD3 /* SettingsVC.h */,
+				430A5A951D04242A009F0CD3 /* SettingsVC.m */,
+				43F800081D105418008034A3 /* MonthSelectionVC.h */,
+				43F800091D105418008034A3 /* MonthSelectionVC.m */,
+				4EFA9EF11D1B08A20055DEB5 /* HelpVC.h */,
+				4EFA9EF21D1B08A20055DEB5 /* HelpVC.m */,
+				4EFA9EF41D1B08B90055DEB5 /* HistoryVC.h */,
+				4EFA9EF51D1B08B90055DEB5 /* HistoryVC.m */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		430A5A871D03581F009F0CD3 /* Data/Models */ = {
+			isa = PBXGroup;
+			children = (
+				4351B3F71CFA106B00734A1A /* TrackMiles.xcdatamodeld */,
+				430A5A881D035837009F0CD3 /* Job+CoreDataProperties.h */,
+				430A5A891D035837009F0CD3 /* Job+CoreDataProperties.m */,
+				430A5A8A1D035837009F0CD3 /* Job.h */,
+				430A5A8B1D035837009F0CD3 /* Job.m */,
+				430A5A8C1D035837009F0CD3 /* Track+CoreDataProperties.h */,
+				430A5A8D1D035837009F0CD3 /* Track+CoreDataProperties.m */,
+				430A5A8E1D035837009F0CD3 /* Track.h */,
+				430A5A8F1D035837009F0CD3 /* Track.m */,
+			);
+			name = Data/Models;
+			sourceTree = "<group>";
+		};
+		430A5ABD1D0751D0009F0CD3 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				430A5ABE1D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.h */,
+				430A5ABF1D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.m */,
+				430A5AC01D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.h */,
+				430A5AC11D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.m */,
+				430A5AC21D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.h */,
+				430A5AC31D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.m */,
+				430A5AC41D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				430A5AC51D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		430A5ACA1D0751D3009F0CD3 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				43F8FFEA1D1053C5008034A3 /* MZFormSheetController */,
+				430A5ABD1D0751D0009F0CD3 /* TPKeyboardAvoiding */,
+			);
+			name = Customs;
+			sourceTree = "<group>";
+		};
+		4351B3DF1CFA106A00734A1A = {
+			isa = PBXGroup;
+			children = (
+				4351B3EA1CFA106B00734A1A /* TrackMiles */,
+				4351B3E91CFA106B00734A1A /* Products */,
+				E68525AB3BE299CC7EFB2B7D /* Pods */,
+				FCAB54981CF22E203E4A8C70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4351B3E91CFA106B00734A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4351B3E81CFA106B00734A1A /* TrackMiles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4351B3EA1CFA106B00734A1A /* TrackMiles */ = {
+			isa = PBXGroup;
+			children = (
+				430A5ACA1D0751D3009F0CD3 /* Customs */,
+				430A5A871D03581F009F0CD3 /* Data/Models */,
+				430A5A751D035257009F0CD3 /* VCs */,
+				4351B3EE1CFA106B00734A1A /* AppDelegate.h */,
+				4351B3EF1CFA106B00734A1A /* AppDelegate.m */,
+				4351B3F41CFA106B00734A1A /* Main.storyboard */,
+				4351B3FA1CFA106B00734A1A /* Assets.xcassets */,
+				4351B3FC1CFA106B00734A1A /* LaunchScreen.storyboard */,
+				4351B3EB1CFA106B00734A1A /* Supporting Files */,
+			);
+			path = TrackMiles;
+			sourceTree = "<group>";
+		};
+		4351B3EB1CFA106B00734A1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				430A5A861D03573C009F0CD3 /* Constant.h */,
+				430A5A851D035728009F0CD3 /* TrackMiles.pch */,
+				4351B3FF1CFA106B00734A1A /* Info.plist */,
+				4351B3EC1CFA106B00734A1A /* main.m */,
+				430A5A971D04285C009F0CD3 /* Manager.h */,
+				430A5A981D04285C009F0CD3 /* Manager.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F8FFEA1D1053C5008034A3 /* MZFormSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				43F8FFEB1D1053C5008034A3 /* Additional */,
+				43F8FFF01D1053C5008034A3 /* MZFormSheetBackgroundWindow.h */,
+				43F8FFF11D1053C5008034A3 /* MZFormSheetBackgroundWindow.m */,
+				43F8FFF21D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.h */,
+				43F8FFF31D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.m */,
+				43F8FFF41D1053C5008034A3 /* MZFormSheetController.h */,
+				43F8FFF51D1053C5008034A3 /* MZFormSheetController.m */,
+				43F8FFF61D1053C5008034A3 /* MZFormSheetSegue.h */,
+				43F8FFF71D1053C5008034A3 /* MZFormSheetSegue.m */,
+				43F8FFF81D1053C5008034A3 /* MZMacro.h */,
+				43F8FFF91D1053C5008034A3 /* MZTransition.h */,
+				43F8FFFA1D1053C5008034A3 /* MZTransition.m */,
+				43F8FFFB1D1053C5008034A3 /* UIImage+Additional.h */,
+				43F8FFFC1D1053C5008034A3 /* UIImage+Additional.m */,
+				43F8FFFD1D1053C5008034A3 /* UIViewController+TargetViewController.h */,
+				43F8FFFE1D1053C5008034A3 /* UIViewController+TargetViewController.m */,
+			);
+			path = MZFormSheetController;
+			sourceTree = "<group>";
+		};
+		43F8FFEB1D1053C5008034A3 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				43F8FFEC1D1053C5008034A3 /* MZAppearance.h */,
+				43F8FFED1D1053C5008034A3 /* MZAppearance.m */,
+				43F8FFEE1D1053C5008034A3 /* NSInvocation+Copy.h */,
+				43F8FFEF1D1053C5008034A3 /* NSInvocation+Copy.m */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		E68525AB3BE299CC7EFB2B7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92CA19A7F5BD7264B988312C /* Pods-TrackMiles.debug.xcconfig */,
+				9361F3A3959278355FC20BBA /* Pods-TrackMiles.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCAB54981CF22E203E4A8C70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90D4458DDBB91A53CE685C9 /* libPods-TrackMiles.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4351B3E71CFA106A00734A1A /* TrackMiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4351B4021CFA106B00734A1A /* Build configuration list for PBXNativeTarget "TrackMiles" */;
+			buildPhases = (
+				392EFAFD9FAE6E207BFFA7A9 /* Check Pods Manifest.lock */,
+				4351B3E41CFA106A00734A1A /* Sources */,
+				4351B3E51CFA106A00734A1A /* Frameworks */,
+				4351B3E61CFA106A00734A1A /* Resources */,
+				409BBCBBEF5BAB39A9E8FA77 /* Embed Pods Frameworks */,
+				3583F3C4B70F472E276C2D75 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMiles;
+			productName = TrackMiles;
+			productReference = 4351B3E81CFA106B00734A1A /* TrackMiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4351B3E01CFA106A00734A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bortech;
+				TargetAttributes = {
+					4351B3E71CFA106A00734A1A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QT4YDPA7AA;
+					};
+				};
+			};
+			buildConfigurationList = 4351B3E31CFA106A00734A1A /* Build configuration list for PBXProject "TrackMiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4351B3DF1CFA106A00734A1A;
+			productRefGroup = 4351B3E91CFA106B00734A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4351B3E71CFA106A00734A1A /* TrackMiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4351B3E61CFA106A00734A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351B3FE1CFA106B00734A1A /* LaunchScreen.storyboard in Resources */,
+				4351B3FB1CFA106B00734A1A /* Assets.xcassets in Resources */,
+				4351B3F61CFA106B00734A1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3583F3C4B70F472E276C2D75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMiles/Pods-TrackMiles-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		392EFAFD9FAE6E207BFFA7A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		409BBCBBEF5BAB39A9E8FA77 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMiles/Pods-TrackMiles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4351B3E41CFA106A00734A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430A5A7B1D035299009F0CD3 /* TracksVC.m in Sources */,
+				43F800021D1053C5008034A3 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
+				43F8000A1D105418008034A3 /* MonthSelectionVC.m in Sources */,
+				43F800041D1053C5008034A3 /* MZFormSheetSegue.m in Sources */,
+				4351B3F01CFA106B00734A1A /* AppDelegate.m in Sources */,
+				430A5AC81D0751D0009F0CD3 /* TPKeyboardAvoidingTableView.m in Sources */,
+				430A5A921D035837009F0CD3 /* Track+CoreDataProperties.m in Sources */,
+				43F800031D1053C5008034A3 /* MZFormSheetController.m in Sources */,
+				430A5A931D035837009F0CD3 /* Track.m in Sources */,
+				4351B3F91CFA106B00734A1A /* TrackMiles.xcdatamodeld in Sources */,
+				430A5A841D035310009F0CD3 /* DistanceVC.m in Sources */,
+				43F800001D1053C5008034A3 /* NSInvocation+Copy.m in Sources */,
+				430A5A781D035284009F0CD3 /* JobsVC.m in Sources */,
+				430A5A911D035837009F0CD3 /* Job.m in Sources */,
+				43F8FFFF1D1053C5008034A3 /* MZAppearance.m in Sources */,
+				4EFA9EF61D1B08B90055DEB5 /* HistoryVC.m in Sources */,
+				43F800011D1053C5008034A3 /* MZFormSheetBackgroundWindow.m in Sources */,
+				430A5A7E1D0352AD009F0CD3 /* AddJobVC.m in Sources */,
+				430A5AC71D0751D0009F0CD3 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				430A5A901D035837009F0CD3 /* Job+CoreDataProperties.m in Sources */,
+				43F800061D1053C5008034A3 /* UIImage+Additional.m in Sources */,
+				43F800051D1053C5008034A3 /* MZTransition.m in Sources */,
+				430A5AC61D0751D0009F0CD3 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				430A5AC91D0751D0009F0CD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				43F800071D1053C5008034A3 /* UIViewController+TargetViewController.m in Sources */,
+				4EFA9EF31D1B08A20055DEB5 /* HelpVC.m in Sources */,
+				430A5A961D04242A009F0CD3 /* SettingsVC.m in Sources */,
+				4351B3ED1CFA106B00734A1A /* main.m in Sources */,
+				430A5A811D0352B9009F0CD3 /* AddTrackVC.m in Sources */,
+				430A5A991D04285C009F0CD3 /* Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4351B3F41CFA106B00734A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4351B3F51CFA106B00734A1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4351B3FC1CFA106B00734A1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4351B3FD1CFA106B00734A1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4351B4001CFA106B00734A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4351B4011CFA106B00734A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4351B4031CFA106B00734A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CA19A7F5BD7264B988312C /* Pods-TrackMiles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QT4YDPA7AA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackMiles/TrackMiles.pch;
+				INFOPLIST_FILE = TrackMiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bortech.MilesTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4351B4041CFA106B00734A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9361F3A3959278355FC20BBA /* Pods-TrackMiles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QT4YDPA7AA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrackMiles/TrackMiles.pch;
+				INFOPLIST_FILE = TrackMiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bortech.MilesTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4351B3E31CFA106A00734A1A /* Build configuration list for PBXProject "TrackMiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351B4001CFA106B00734A1A /* Debug */,
+				4351B4011CFA106B00734A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4351B4021CFA106B00734A1A /* Build configuration list for PBXNativeTarget "TrackMiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4351B4031CFA106B00734A1A /* Debug */,
+				4351B4041CFA106B00734A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4351B3F71CFA106B00734A1A /* TrackMiles.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4351B3F81CFA106B00734A1A /* TrackMiles.xcdatamodel */,
+			);
+			currentVersion = 4351B3F81CFA106B00734A1A /* TrackMiles.xcdatamodel */;
+			path = TrackMiles.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4351B3E01CFA106A00734A1A /* Project object */;
+}

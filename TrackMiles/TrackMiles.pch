@@ -1,0 +1,24 @@
+//
+//  TrackMiles.pch
+//  TrackMiles
+//
+//  Created by Jahangir on 6/4/16.
+//  Copyright © 2016 Adrian Borcea. All rights reserved.
+//
+
+#ifndef TrackMiles_pch
+#define TrackMiles_pch
+
+#import "Constant.h"
+#import "AppDelegate.h"
+
+#import "Job.h"
+#import "Track.h"
+#import "Manager.h"
+
+#import "SWTableViewCell.h"
+#import "MZFormSheetController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* TrackMiles_pch */
